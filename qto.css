@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.principal span{
+    color: #00c3ff;
+}
+
+.hash{
+    font-size: 17px;
+}
+
+.topo {
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    height: 50px;
+}
+
+.principal{
+    color: black;
+    font-size: 25px;
+    padding-left: 200px;
+    margin-left: 800px;
+    margin-top: 30px;
+    height: 65px; 
+    padding-right:730px ;
+}
+
+.topo a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.banner img{
+    width: 100%;
+    height: 650px;
+    padding-bottom: 50px;
+}
+
+
+.quartos {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.quarto-tipo {
+    margin-bottom: 50px;
+}
+
+.quarto-tipo h1 {
+text-align: center;
+margin-bottom: 40px;
+}
+
+.quarto-tipo h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.quarto-tipo p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.quartos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    grid-gap: 15px; 
+    margin-bottom: 20px;
+}
+
+.quartos-grid img {
+    width: 100%;
+    height: 250px;  
+    object-fit: cover; 
+    margin-bottom: 50px;
+}
+
+
+.informacoes ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;
+    justify-items: center;
+    text-align: center;
+}
+
+
+.informacoes ul li:nth-child(5),
+.informacoes ul li:nth-child(6) {
+    grid-column: span 2; 
+}
+
+
+.informacoes ul li {
+    font-size: 14px;
+    color: #333;
+    position: relative;
+}
+
+.informacoes ul li:before {
+    content: '•';
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+
+.rodape {
+    background-color: #4BA173; 
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.contato h2 {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.info div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info img {
+    width: 24px;
+    height: 24px;
+}
+
+.copy p {
+    margin: 0;
+    font-size: 14px;
+}
